@@ -1,0 +1,11 @@
+{
+  "name": "justin-bridou-bot",
+  "version": "1.0.0",
+  "description": "Bot discord du serveur Justin Bridou",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ssoppe",
+  "license": "ISC"
+}
