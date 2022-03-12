@@ -7,5 +7,10 @@
     "start": "node index.js"
   },
   "author": "Ssoppe",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^13.6.0",
+    "js": "^0.1.0"
+  }
 }
