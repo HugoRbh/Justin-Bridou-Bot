@@ -37,4 +37,4 @@ client.on("messageCreate", message => {
   }
 });
 
-client.login(preocess.env.TOKEN);
+client.login(process.env.TOKEN);
