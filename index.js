@@ -28,6 +28,8 @@ client.on("messageCreate", message => {
       var mDisplay = m > 0 ? m + (m == 1 ? " minute " : " minutes ") : "";
       var sDisplay = s > 0 ? s + (s == 1 ? " seconde" : " secondes") : "";
       var resultat = hDisplay + mDisplay + sDisplay;
+
+      if (message.author.bot) return;
       
       if(isNaN(nb_crafts)){
         message.reply("Merci d'entrer seulement un nombre.");
